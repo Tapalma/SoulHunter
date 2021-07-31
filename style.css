@@ -1,7 +1,7 @@
 /*Тело кода, 1.Цвет, 2.Фон*/
 body {
   background: #cbdbfc;
-  background-image: url(image/background2.png);
+  background-image: url(image/background.png);
 }
 
 p, h1, h2, button {
