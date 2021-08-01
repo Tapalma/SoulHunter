@@ -2,35 +2,41 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <!--1.Ширина на экран девайса, 2.Файлы для сайта, 3.Иконка-->
+<!--1.Ширина на экран девайса, 2.Файлы для сайта, 3.Иконка-->
   <meta name="viewport" content="width=device-width">
   <link href="style.css" rel="stylesheet" type="text/css">
   <link href="image/icon.ico" rel="icon" type="image/png">
   <title>Время поохотиться!</title>
 </head>
 <body>
-  <header>
-    <div class="intro">
+<!--Верхушка страницы-->
+  <div class="intro">
       <h1>Охотник за душами.</h1>
-      <p>Вы - охотник за душами. Ваша задача гнаться за этими комками энергии некогда живых существ. А младший демон Гриша поможет за души с продуктивностью и наоборот.</p>
-    <div>
-  </header>
-  <div class="soul">
-    <p>Души: 0</p>
-    <button class="click">
-      <img src="image/click.png" alt="Тык-тык, как в осу">
-    </button>
+      <p class="text">Вы - охотник за душами. Ваша задача гнаться за этими комками энергии некогда живых существ. А младший демон Гриша поможет за души с продуктивностью и наоборот.</p>
   </div>
-  <div class="shop">
-    <p><a class="Grisha"></a></p>
-    <ul class="butt">
-      <li><button>Улучшение орудий: n за клик</button></li>
-      <li><button>Наём рабочей силы: n в секунду</button></li>
-    </ul>
-    <ul class="butt">
-      <li><button>На маршмеллоу</button></li>
-      <li><button>Купить жареных гвоздей</button></li>
-    </ul>
+<!--Тело страницы-->
+  <div class="game">
+<!--1.Кликер-->
+    <div class="clicker">
+      <p class="money">Души: 0</p>
+      <button class="click">
+        <img src="image/click.png" alt="Тык-тык, как в осу">
+      </button>
+    </div>
+<!--2.Магазин-->
+    <div class="shop">
+      <p><a class="Grisha"></a></p>
+      <div class="update">
+        <ul class="one">
+          <li><button>Улучшение орудий: n за клик</button></li>
+          <li><button>Наём рабочей силы: n в секунду</button></li>
+        </ul>
+        <ul class="two">
+          <li><button>На маршмеллоу</button></li>
+          <li><button>Купить жареных гвоздей</button></li>
+        </ul>
+      </div>
+    </div>
   </div>
 </body>
 </html>
